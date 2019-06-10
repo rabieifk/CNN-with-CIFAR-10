@@ -3,7 +3,7 @@ impact of loss function and activation function on the CNN with CIFAR 10 data se
 
 The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset is a useful dataset for analysing the accuracy of classification in many algorithm.
 
-A  [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) with 3 layers is used.Three activation functions are used:
+A  [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) with 3 layers is used. Three activation functions are used:
 
 [Sigmiod](https://en.wikipedia.org/wiki/Sigmoid_function) => fluctuation and vanishing gradainet are sigmiod's challenge
 
