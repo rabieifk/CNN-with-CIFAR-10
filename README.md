@@ -1,9 +1,8 @@
 # CNN-with-CIFAR-10
-impact of loss function and activation function on the CNN with CIFAR 10 data set
+Objective: Study the impact of loss function and activation function on the CNN
+ 
+A 3-layer [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) with three activation functions was designed and used to classify the images in the well-known [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) set, and the outcome was compared with the expected results for CIFAR-10.
 
-The [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset is a useful dataset for analysing the accuracy of classification in many algorithm.
-
-A  three layers [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network), in which three activation functions are employed, is designed:
 
 [Sigmiod](https://en.wikipedia.org/wiki/Sigmoid_function) => fluctuation and vanishing gradainet are sigmiod's challenge
 
@@ -13,6 +12,6 @@ A  three layers [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network
 
 The best result is for ELU.
 
-SGD, Adam, Adagrad and RMSProp is used for optimization. SGD has the lowes accuracy.
+SGD, Adam, Adagrad and RMSProp are used for optimization. SGD has the lowes accuracy.
 
 using [Dropout](https://en.wikipedia.org/wiki/Convolutional_neural_network) layer perevents network from overfitting as you can see in the result.
